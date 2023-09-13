@@ -33,3 +33,11 @@ sections:
           units: imperial
 sections:
   - name: System Info
+    widgets:
+      - type: clock
+        options:
+          timeZone: Europe/London
+          format: en-US
+          hideDate: false
+          customCityName: London
+          use12Hour: false
