@@ -27,7 +27,7 @@ sections:
           hideDetails: false
       - type: weather-forecast
         options:
-          city: California
+          city: Lino Lakes
           numDays: 6
           apiKey: 0638f1408533e435f8b97c3060fc7658
           units: imperial
