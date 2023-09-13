@@ -19,9 +19,10 @@ sections:
           hideDate: false
           customCityName: Lino Lakes
           use12Hour: false
-       - type: weather
-         options:
-           apiKey: 0638f1408533e435f8b97c3060fc7658
-           city: Lino Lakes
-           units: imperial
-           hideDetails: false
+      - type: weather
+        options:
+          apiKey: 0638f1408533e435f8b97c3060fc7658
+          city: Lino Lakes
+          units: imperial
+          hideDetails: false
+		  
