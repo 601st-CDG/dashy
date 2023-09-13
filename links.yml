@@ -1,0 +1,158 @@
+sections:
+  - name: Getting Started
+    icon: fas fa-rocket
+    items:
+      - title: Dashy Live
+        description: Development a project management links for Dashy
+        icon: https://i.ibb.co/qWWpD0v/astro-dab-128.png
+        url: https://live.dashy.to/
+        target: newtab
+        id: 0_1481_dashylive
+      - title: GitHub
+        description: Source Code, Issues and Pull Requests
+        url: https://github.com/lissy93/dashy
+        icon: favicon
+        id: 1_1481_github
+      - title: Docs
+        description: Configuring & Usage Documentation
+        provider: Dashy.to
+        icon: far fa-book
+        url: https://dashy.to/docs
+        id: 2_1481_docs
+      - title: Showcase
+        description: See how others are using Dashy
+        url: https://github.com/Lissy93/dashy/blob/master/docs/showcase.md
+        icon: far fa-grin-hearts
+        id: 3_1481_showcase
+      - title: Config Guide
+        description: See full list of configuration options
+        url: https://github.com/Lissy93/dashy/blob/master/docs/configuring.md
+        icon: fas fa-wrench
+        id: 4_1481_configguide
+      - title: Support
+        description: Get help with Dashy, raise a bug, or get in contact
+        url: https://github.com/Lissy93/dashy/blob/master/.github/SUPPORT.md
+        icon: far fa-hands-helping
+        id: 5_1481_support
+  - name: Services
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Dark Search
+        icon: fas fa-window-maximize
+        url: https://darksearch.us/
+        target: newtab
+        id: 0_836_darksearch
+  - name: System Monitoring
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Backbone
+        icon: hl-uptime-kuma
+        url: http://uptime:3001/status/infrastructure
+        target: newtab
+        statusCheckAllowInsecure: true
+        id: 0_1739_backbone
+      - title: Proxmox
+        icon: hl-uptime-kuma
+        url: http://uptime:3001/status/proxmox
+        target: newtab
+        statusCheckAllowInsecure: true
+        id: 1_1739_proxmox
+      - title: Blackhole-1
+        icon: hl-pi-hole
+        url: http://10.0.1.10/admin/login.php
+        target: newtab
+        id: 2_1739_blackhole
+      - title: Blackhole-2
+        icon: hl-pi-hole
+        url: http://10.0.1.11/admin/login.php
+        target: newtab
+        id: 3_1739_blackhole
+  - name: Hosted Applications
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 2
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: CyberChef
+        icon: hl-cyberchef
+        url: https://cyberchef/
+        target: newtab
+        color: '#4b5320'
+        id: 0_1902_cyberchef
+      - title: SkyAware
+        description: ''
+        icon: fas fa-plane
+        url: http://10.0.0.128/skyaware/
+        target: newtab
+        statusCheck: true
+        id: 1_1902_skyaware
+      - title: Home Assistant
+        icon: hl-home-assistant
+        id: 2_1902_homeassistant
+      - title: Trilium
+        icon: fas fa-book
+        id: 3_1902_trilium
+      - title: qBittorrent
+        icon: hl-qbittorrent
+        url: http://qbit:8080/
+        target: newtab
+        id: 4_1902_qbittorrent
+      - title: CMDB
+        icon: hl-snipe-it
+        url: \\cmdb\
+        target: newtab
+        id: 5_1902_cmdb
+  - name: Video Monitoring
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Front Right
+        url: rtsp://10.0.1.4:7447/xy9j5MvDkeg4cZ8r
+        statusCheck: true
+        id: 0_1597_frontright
+      - title: Front Left
+        url: rtsp://10.0.1.4:7447/QfRC3bPS8NG7W29U
+        target: newtab
+        id: 1_1597_frontleft
+  - name: Security Tools
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Kasm
+        url: https://app.kasmweb.com/#/login
+        target: newtab
+        id: 0_1417_kasm
+  - name: Administration
+    icon: fas fa-user-cog
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: O365
+        icon: hl-microsoft365-admin-center
+        url: https://admin.microsoft.com/
+        target: newtab
+        id: 0_1478_o
