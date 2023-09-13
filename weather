@@ -22,7 +22,12 @@ sections:
       - type: weather
         options:
           apiKey: 0638f1408533e435f8b97c3060fc7658
-          city: Minneapolis
+          city: Lino Lakes
           units: imperial
           hideDetails: false
-		  
+	  - type: weather-forecast
+        options:
+          city: California
+          numDays: 6
+          apiKey: 0638f1408533e435f8b97c3060fc7658
+          units: imperial
