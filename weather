@@ -1,0 +1,21 @@
+pageInfo:
+  title: 601st Cyber Defense Group
+  description: A division of The ItascaGroup
+  navLinks:
+    - title: GitHub
+      path: https://github.com/Lissy93/dashy
+      target: newtab
+    - title: Documentation
+      path: https://dashy.to/docs
+      target: newtab
+  footerText: ''
+sections:
+  - name: Local Info
+    widgets:
+      - type: clock
+        options:
+          timeZone: America/Chicago
+          format: en-US
+          hideDate: false
+          customCityName: Lino Lakes
+          use12Hour: false
